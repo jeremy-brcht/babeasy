@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  min-height: 5rem;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 3;
+  min-height: 5.5rem;
+  padding-top: 0.5rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("./assets/wave-header5.svg");
+  color: #ffffff;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img-header {
+  margin: 0;
+}
+
+header img {
+  height: 4rem;
+  width: 4rem;
+  color: #ffffff;
+}
+
+header a {
+  color: #ffffff;
+  margin-top: 1rem;
+  text-decoration: none;
+  height: fit-content;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+}
+
+section h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+section p {
+  text-align: center;
+  width: 80%;
+}
+
+section p span {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+section img {
+  margin: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.33);
+}
+
+.container {
+  position: relative;
+  top: -5rem;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layer1 {
+  background-color: #004777;
+  color: #ffffff;
+  padding-top: 7rem;
+}
+.layer2 {
+  background-color: #0061a3;
+  color: #ffffff;
+}
+.layer3 {
+  background-color: #0099ff;
+  color: #ffffff;
+}
+.layer4 {
+  background-color: #8dc8ef;
+}
+.layer5 {
+  background-color: #006cb5;
+  color: #ffffff;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-header {
+  z-index: 3;
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/wave-header.svg");
+  position: absolute;
+  top: 0;
+}
+
+.wave1 {
+  background-image: url("./assets/wave-1.svg");
+}
+.wave2 {
+  background-image: url("./assets/wave-2.svg");
+}
+.wave3 {
+  background-image: url("./assets/wave-3.svg");
+}
+.wave4 {
+  background-image: url("./assets/wave-4.svg");
+}
+
+.commande {
+  padding: 0.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 2rem;
+  transform: translateY(-25%);
+  transition: all ease 0.5s;
+}
+
+.commande:hover {
+  text-decoration: none;
+  background-color: #ffffff44;
+}
+
+.commande-layout {
+  width: 100%;
+  min-height: calc(100vh - 7rem);
+}
